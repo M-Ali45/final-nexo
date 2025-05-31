@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const announcements = [
   'FREE DELIVERY ON PURCHASE PKR 5000',
-  'NEXT DAY DELIVERY',
+  'NEXT DAY DELIVERY', 
   'SECURE PAYMENTS',
   'APPLY PROMO CODE "20BC" FOR 20% ADDITIONAL DISCOUNT',
 ];
