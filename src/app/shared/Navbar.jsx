@@ -150,7 +150,7 @@ const Navbar = () => {
           </Dropdown>
         ))}
 
-        {/* Mobile Search + Icons */}
+       
         <div style={{ marginTop: '16px' }}>
           <Search
             placeholder="Search..."
