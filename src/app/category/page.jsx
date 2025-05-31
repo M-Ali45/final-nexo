@@ -1,13 +1,11 @@
 import React from 'react'
-import AnnouncementBar from './components/home/Announcement'
 
 const page = () => {
   return (
     <div className='pt-[65px]'>
-     <AnnouncementBar />
+      category page
     </div>
   )
 }
 
 export default page
-
