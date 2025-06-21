@@ -2,7 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./shared/Navbar";
 import AnnouncementBar from "./components/home/Announcement";
-
+import Footer from "./shared/Footer";
+ const phoneNumber = '+923321278328';
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,11 +29,25 @@ export default function RootLayout({ children }) {
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet"
       ></link>
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        rel="stylesheet"
+      ></link>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-6 right-6 z-50 bg-white rounded-full shadow-lg "
+          aria-label="Contact us on WhatsApp"
+        >
+          <img src="/images/whatsapp.png" className="w-[60px] h-[60px]" />
+        </a>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
