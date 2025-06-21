@@ -103,9 +103,7 @@ const Navbar = () => {
         { key: "8-4", label: "Emergency Lights", href: "/category/emergency-lights" },
       ],
     },
-   
   ];
-
   const dropdownMenus = menuItems.map((item) => (
     <Dropdown
       key={item.key}
