@@ -82,7 +82,7 @@ const Footer = () => {
                             <Input placeholder="Enter your email address" className="w-2/3 rounded-lg !rounded-r-none" />
                             <button className="w-1/3 bg-black !text-white py-2 rounded-r-lg">SUBSCRIBE</button>
                         </div>
-                        <p>Call: +971 55 576 2130</p>
+                        <p>Call: +971 00 000 0000</p>
                         <p>Join our Whatsapp Broadcast List</p>
                         <div className="flex space-x-4">
                             <Link href="#"><i className="fab fa-facebook-f"></i></Link>

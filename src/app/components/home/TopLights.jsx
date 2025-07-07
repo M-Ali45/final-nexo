@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const LightingCategories = () => {
   const categories = [
-    { name: "Lighting", route: "/lighting", image: "/images/home/light1.png" },
-    { name: "Electrical", route: "/electrical", image: "/images/home/light1.png" },
-    { name: "Decorative", route: "/decorative", image: "/images/home/light1.png" },
-    { name: "Chandeliers", route: "/chandeliers", image: "/images/home/light1.png" },
-    { name: "Outdoor", route: "/outdoor", image: "/images/home/light1.png" },
-    { name: "Smart Home", route: "/smart-home", image: "/images/home/light1.png" },
-    { name: "Digital Sign", route: "/digital-sign", image: "/images/home/light1.png" },
-    { name: "Show More", route: "/show-more", image: "/images/home/light1.png" },
+    { name: "Architectural", route: "/Architectural", image: "/images/home/light2.png" },
+    { name: "Decorative", route: "/Decorative", image: "/images/home/light1.png" },
+    { name: "Outdoor", route: "/Outdoor", image: "/images/home/light1.png" },
+    { name: "Smart Home", route: "/Smart Home", image: "/images/home/light1.png" },
+    { name: "Smart Glass", route: "/Smart Glass", image: "/images/home/light1.png" },
+    { name: "Digital Sign", route: "/Digital Sign", image: "/images/home/light1.png" },
+    { name: "LED Bulbs", route: "/LED Bulbs", image: "/images/home/light1.png" },
+    { name: "Accessories", route: "/Accessories", image: "/images/home/light1.png" },
   ];
 
   return (

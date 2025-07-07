@@ -25,7 +25,7 @@ const Navbar = () => {
   const menuItems = [
     {
       key: "1",
-      label: "Lighting",
+      label: "Architectural",
       items: [
         { key: "1-1", label: "Chandeliers", href: "/lighting/chandeliers" },
         { key: "1-2", label: "Pendant Lights", href: "/lighting/pendant-lights" },
@@ -35,7 +35,7 @@ const Navbar = () => {
     },
     {
       key: "2",
-      label: "Electrical",
+      label: "Decorative",
       items: [
         { key: "2-1", label: "Sconces", href: "/electrical/sconces" },
         { key: "2-2", label: "Wall Lamps", href: "/electrical/wall-lamps" },
@@ -45,7 +45,7 @@ const Navbar = () => {
     },
     {
       key: "3",
-      label: "Decorative",
+      label: "Outdoor",
       items: [
         { key: "3-1", label: "Arc Lamps", href: "/decorative/arc-lamps" },
         { key: "3-2", label: "Tripod Lamps", href: "/decorative/tripod-lamps" },
@@ -55,7 +55,7 @@ const Navbar = () => {
     },
     {
       key: "4",
-      label: "Chandelier",
+      label: "Smart Home",
       items: [
         { key: "4-1", label: "Desk Lamps", href: "/chandelier/desk-lamps" },
         { key: "4-2", label: "Table Lights", href: "/chandelier/table-lights" },
@@ -65,7 +65,7 @@ const Navbar = () => {
     },
     {
       key: "5",
-      label: "Outdoor",
+      label: "Smart Glass",
       items: [
         { key: "5-1", label: "Solar Lights", href: "/outdoor/solar-lights" },
         { key: "5-2", label: "String Lights", href: "/outdoor/string-lights" },
@@ -75,7 +75,7 @@ const Navbar = () => {
     },
     {
       key: "6",
-      label: "Smart Home",
+      label: "Digital Sign",
       items: [
         { key: "6-1", label: "Smart Bulbs", href: "/smart-home/smart-bulbs" },
         { key: "6-2", label: "Smart Strips", href: "/smart-home/smart-strips" },
@@ -85,7 +85,7 @@ const Navbar = () => {
     },
     {
       key: "7",
-      label: "Digital Sign",
+      label: "LED Bulbs",
       items: [
         { key: "7-1", label: "LED Bulbs", href: "/digital-sign/led-bulbs" },
         { key: "7-2", label: "CFL Bulbs", href: "/digital-sign/cfl-bulbs" },
@@ -95,7 +95,7 @@ const Navbar = () => {
     },
     {
       key: "8",
-      label: "Shop More",
+      label: "Accessories",
       items: [
         { key: "8-1", label: "Grow Lights", href: "/shop-more/grow-lights" },
         { key: "8-2", label: "UV Lights", href: "/shop-more/uv-lights" },
@@ -135,7 +135,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex flex-col">
             <Link href="/">
-              <h2 className="text-lg md:text-3xl font-extrabold text-gray-900 tracking-tight">LED WORLD</h2>
+              <h2 className="text-lg md:text-3xl font-extrabold tracking-tight"style={{ color:'#0097B2'}}>Nexo</h2>
             </Link>
           </div>
 
