@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const LightingCategories = () => {
   const categories = [
-    { name: "Architectural", route: "/Architectural", image: "/images/home/light2.png" },
-    { name: "Decorative", route: "/Decorative", image: "/images/home/light1.png" },
-    { name: "Outdoor", route: "/Outdoor", image: "/images/home/light1.png" },
-    { name: "Smart Home", route: "/Smart Home", image: "/images/home/light1.png" },
-    { name: "Smart Glass", route: "/Smart Glass", image: "/images/home/light1.png" },
-    { name: "Digital Sign", route: "/Digital Sign", image: "/images/home/light1.png" },
-    { name: "LED Bulbs", route: "/LED Bulbs", image: "/images/home/light1.png" },
-    { name: "Accessories", route: "/Accessories", image: "/images/home/light1.png" },
+    { name: "Architectural", route: "/architectural", image: "/images/home/light2.png" },
+    { name: "Decorative", route: "/decorative", image: "/images/home/light1.png" },
+    { name: "Outdoor", route: "/outdoor", image: "/images/home/light1.png" },
+    { name: "Smart Home", route: "/smart-home", image: "/images/home/light1.png" },
+    { name: "Smart Glass", route: "/smart-glass", image: "/images/home/light1.png" },
+    { name: "Digital Sign", route: "/digital-sign", image: "/images/home/light1.png" },
+    { name: "LED Bulbs", route: "/led-bulbs", image: "/images/home/light1.png" },
+    { name: "Accessories", route: "/accessories", image: "/images/home/light1.png" },
   ];
 
   return (
@@ -20,7 +20,7 @@ const LightingCategories = () => {
         {categories.map((category) => (
           <Link href={category.route} key={category.name} className="block">
             <div className="border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 bg-white h-full flex flex-col items-center justify-center p-2">
-              <img src={category.image} alt={category.name} className="w-full h-32 object-contain bg-gray-100 p-2" />
+              <img src={category.image} alt={category.name} className="w-full h-32 object-contain bg-gray-100 rounded-2xl" />
               <p className="text-center text-gray-600 mt-2">{category.name}</p>
             </div>
           </Link>

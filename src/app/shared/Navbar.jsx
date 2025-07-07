@@ -27,10 +27,10 @@ const Navbar = () => {
       key: "1",
       label: "Architectural",
       items: [
-        { key: "1-1", label: "Chandeliers", href: "/lighting/chandeliers" },
-        { key: "1-2", label: "Pendant Lights", href: "/lighting/pendant-lights" },
-        { key: "1-3", label: "Flush Mounts", href: "/lighting/flush-mounts" },
-        { key: "1-4", label: "Recessed Lights", href: "/lighting/recessed-lights" },
+        { key: "1-1", label: "Chandeliers", href: "/architectural/chandeliers" },
+        { key: "1-2", label: "Pendant Lights", href: "/architectural/pendant-lights" },
+        { key: "1-3", label: "Flush Mounts", href: "/architectural/flush-mounts" },
+        { key: "1-4", label: "Recessed Lights", href: "/architectural/recessed-lights" },
       ],
     },
     {
@@ -121,7 +121,7 @@ const Navbar = () => {
       }
       trigger={["hover", "click"]}
     >
-      <a className="text-sm xl:text-lg font-medium xl:font-semibold text-gray-900 hover:text-blue-500 mx-3 lg:mx-5 transition-colors cursor-pointer">
+      <a className="text-sm xl:text-lg font-medium xl:font-semibold text-gray-900 hover:!text-[#0097b2] mx-3 lg:mx-5 transition-colors cursor-pointer">
         {item.label}
       </a>
     </Dropdown>

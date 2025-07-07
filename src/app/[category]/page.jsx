@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className='max-w-[1440px] mx-auto'>
       <HeroSection category={category}  />
-      <ShowCategory />
+      <ShowCategory category={category} />
     </div>
   )
 }

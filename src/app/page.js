@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className=''>
      <AnnouncementBar />
-     <Image src="/images/home/5.png" width={1440} height={400} alt='hero image' className='w-full' />
+     <Image src="/images/home/hero.png" width={1440} height={200} alt='hero image' className='w-full object-cover h-[500px]' />
      <TopLights />
      <image src="images/home/light2.png" width={220} height={128} alt='Architectural'className='top light-1st'/>
      <Brands />
