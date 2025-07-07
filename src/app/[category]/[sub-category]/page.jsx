@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='pt-[65px]'>
+    <div className=''>
       Lighting Sub Categories page
     </div>
   )

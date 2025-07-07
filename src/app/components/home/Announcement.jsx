@@ -31,13 +31,13 @@ export default function AnnouncementBar() {
     <>
       {/* Inject custom styles */}
       <style jsx>{customStyles}</style>
-      <div className="w-full h-[50px] bg-gray-300 flex items-center justify-center overflow-hidden">
+      <div className="w-full h-[50px] bg-gray-150 flex items-center justify-center overflow-hidden">
         <Carousel
           dots={false}
           arrows={false}
           draggable={true}
           autoplay
-          autoplaySpeed={2000}
+          autoplaySpeed={5000}
           className="w-full max-w-3xl"
         >
           {announcements.map((announcement, index) => (
@@ -45,8 +45,11 @@ export default function AnnouncementBar() {
               key={index}
               className="flex items-center justify-center w-full"
             >
-              <div className="text-sm sm:text-xl font-medium sm:font-bold text-red-500 text-center px-4">
-                {announcement}
+              <div
+                className="text-xs sm:text-lg font-normal text-center px-4 flex items-center justify-center gap-2"
+                style={{ color: '#0097B2' }}
+              >
+                <span></span> {announcement}
               </div>
             </div>
           ))}

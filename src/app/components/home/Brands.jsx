@@ -9,15 +9,15 @@ import 'swiper/css/pagination';
 
 // Your logos array
 const logos = [
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
-  '/images/home/light1.png',
+  '/images/home/KT1.png',
+  '/images/home/lustra.png',
+  '/images/home/tridonic.png',
+  '/images/home/panasonic.png',
+  '/images/home/tci.png',
+  '/images/home/vs.png',
+  '/images/home/osram.png',
+  '/images/home/luxram.png',
+  '/images/home/meanwel.png',
   '/images/home/light1.png',
   '/images/home/light1.png',
   '/images/home/light1.png',
@@ -32,7 +32,7 @@ const BrandCarousel = () => {
         modules={[Autoplay, Pagination]}
         spaceBetween={20}
         slidesPerView={6}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 5000 }}
         // navigation={{
         //   nextEl: '.swiper-button-next',
         //   prevEl: '.swiper-button-prev',
