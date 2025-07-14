@@ -105,12 +105,13 @@ const ShowCategory = ({ category }) => {
                 hoverable
                 style={{ textAlign: 'center' }}
                 cover={
-                  <div style={{ height: '150px', background: '#f5f5f5' }}>
+                  <div style={{ height: '150px', background: '#f5f5f5' }} >
                     {/* Placeholder for subcategory image */}
                     <img
                       alt={subcategory.label}
-                      src={`/images/home/light2.png`}
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      src={`/images/home/light2.jpeg`}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius:"10px 10px 0px 0px" }}
+
                     />
                   </div>
                 }

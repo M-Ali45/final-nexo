@@ -4,6 +4,7 @@ import React from 'react';
 import { useParams } from 'next/navigation';
 import { BiSolidCartAdd } from 'react-icons/bi';
 import { VscHeart } from 'react-icons/vsc';
+import Link from 'next/link';
 
 const ShowCards = () => {
   // Get category and sub-category from the URL
@@ -117,11 +118,11 @@ const ShowCards = () => {
     : products;
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="max-w-[1440px] mx-auto px-4 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
-            <div
+            <Link href={`/${category}/${subCategory}/${product.id}`}
               key={product.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative"
             >
@@ -141,7 +142,7 @@ const ShowCards = () => {
                   <span>ADD TO CART</span>
                 </button>
               </div>
-            </div>
+            </Link>
           ))
         ) : (
           <p>No products found for sub-category: {subCategory || 'None'}</p>
